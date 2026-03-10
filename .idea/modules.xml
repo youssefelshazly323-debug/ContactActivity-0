@@ -1,0 +1,20 @@
+// Assume studentAge is retrieved from an Intent or Input
+    val studentAge = 20
+
+    // 1. Calculate years until 100
+    val yearsTo100 = 100 - studentAge
+
+    // 2. Calculate age in months
+    val ageInMonths = studentAge * 12
+
+    // 3. Calculate age in days (skipping leap years)
+    val ageInDays = studentAge * 365
+
+    // 4. Calculate remainder when divided by 5
+    val remainder = studentAge % 5
+
+    // 5. Print all values
+    println("Years until 100: $yearsTo100")
+    println("Age in months: $ageInMonths")
+    println("Age in days: $ageInDays")
+    println("Remainder when divided by 5: $remainder")
